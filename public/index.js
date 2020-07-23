@@ -58,7 +58,7 @@ const handleNoteSave = function () {
   };
 
   saveNote(newNote).then(() => {
-    console.log(newNote.text);
+ 
     getAndRenderNotes();
     renderActiveNote();
   });
@@ -103,11 +103,10 @@ const handleRenderSaveBtn = function () {
   }
 };
 
+
 // Render's the list of note titles
 const renderNoteList = (notes) => {
   $noteList.empty();
-  console.log("NOTES: " + notes[0]);
-  // $noteList.css({'color': 'yellow'});
 
   const noteListItems = [];
 

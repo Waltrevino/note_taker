@@ -1,7 +1,12 @@
 [
   {
-    "id": "ca6f8ef2-5e7d-4bf4-9216-24a95a626dd6",
-    "title": "Note 3",
-    "text": "Note 3 test"
+    "id": "b2801ea4-4b2c-4380-8651-ea8a26919972",
+    "title": "note1",
+    "text": "text1"
+  },
+  {
+    "id": "770f15c4-f01a-483c-a6b0-f6062f501eb1",
+    "title": "note2",
+    "text": "text2"
   }
 ]

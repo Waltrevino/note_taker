@@ -27,11 +27,10 @@ module.exports = function (app) {
 
             fs.writeFile("./db/db.json", JSON.stringify(existingNotes, null, 2), err => {
                 if (err) throw err;
-                res.send(dbJSON);
-                console.log("Your note has been created!")
+                res.json(dbJSON);
             });
         });
-        // res.send(dbJSON);
+
     });
 
     app.delete("/api/notes/:id", (req, res) => {
